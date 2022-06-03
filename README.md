@@ -1,5 +1,4 @@
 <img src="./readme-files/gorestaurant-logo.svg" />
-<br />
 
 <h1 align="center">
   <img width="50em" src="./readme-files/ignite-logo.svg" />
@@ -10,11 +9,11 @@
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-use">How To Use</a>
 </div>
+<br />
 
 <div align="center">
   <p>🔎 <strong>About:</strong> Application made to create and manage Italian dishes.</p>
 </div>
-<br />
 
 <div>
   <h2>⚔️ 𝗧𝗵𝗲 𝗰𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲</h2>
