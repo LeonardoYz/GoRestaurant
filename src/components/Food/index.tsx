@@ -6,7 +6,15 @@ import { Container } from "./styles";
 
 import { api } from "../../services/api";
 
-export function Food({ food, handleDelete, handleEditFood }) {
+import { FoodData } from "../../@types/foodData";
+
+interface FoodProps {
+  food: FoodData;
+  handleDelete: (arg: number) => void;
+  handleEditFood: (arg: FoodData) => void;
+}
+
+export function Food({ food, handleDelete, handleEditFood }: FoodProps) {
   const [isAvailable, setIsAvailable] = useState(food.available);
 
   async function toggleAvailable() {

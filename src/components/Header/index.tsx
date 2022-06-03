@@ -3,7 +3,11 @@ import Logo from "../../assets/logo.svg";
 
 import { Container } from "./styles";
 
-export function Header({ openModal }) {
+interface HeaderProps {
+  openModal: () => void;
+}
+
+export function Header({ openModal }: HeaderProps) {
   return (
     <Container>
       <header>
